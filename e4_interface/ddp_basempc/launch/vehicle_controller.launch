@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="ddp_basempc" type="ddp_mpc.py" name="ddp_mpc" output="screen"/>
+</launch>

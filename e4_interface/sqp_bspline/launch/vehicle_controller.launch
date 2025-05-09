@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="sqp_bspline" type="bspline_mpc.py" name="bspline_mpc" output="screen"/>
+</launch>
