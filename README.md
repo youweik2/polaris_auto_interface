@@ -6,4 +6,4 @@ This repository provides guidance for autonomous driving development on the Pola
 
 Home Page: https://publish.illinois.edu/robotics-autonomy-resources/
 
-We mainly use the e2 and e4 vehicle there.
+We primarily use the GEM e2 and e4 vehicles at the facility. For more information, please contact John at jmhart3@illinois.edu. Additionally, note that some hardware components in the vehicles have been updated, so make sure to follow the latest modifications.
