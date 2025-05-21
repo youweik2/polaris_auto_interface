@@ -6,4 +6,10 @@ This repository provides guidance for autonomous driving development on the Pola
 
 Home Page: https://publish.illinois.edu/robotics-autonomy-resources/
 
-We primarily use the GEM e2 and e4 vehicles at the facility. For more information, please contact John at jmhart3@illinois.edu. Additionally, note that some hardware components in the vehicles have been updated, so make sure to follow the latest modifications.
+We mainly use the GEM e2 and e4 vehicles at Highbay. For more information, you can contact John at jmhart3@illinois.edu.
+
+The facility provides a pre-configured Ubuntu 20.04 system for direct vehicle use—ask the administrator to help you copy the SSD.
+
+Alternatively, you can use the ACRL SSD with our custom setup. John can help locate it.
+
+Please note that some vehicle hardware has been updated, so make sure to follow the latest changes.
