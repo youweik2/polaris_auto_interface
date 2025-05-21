@@ -29,3 +29,5 @@ The system includes plotting functions for visualizing trajectories and control 
 The e4 interface can be used directly on both the GEM e4 and e2 vehicles. We have finished a ROS-based version, which is already included on our SSD. You can use it as the main src folder to run the system.
 
 This interface sends throttle, brake, and steering commands through the PACMod system. If you are using our SSD, the setup is ready to use.
+
+We have also implemented an MPC framework based on occupancy grids. The obstacle data is generated from simulated LiDAR measurements in the simulation environment. You can adjust the behavior or extend the implementation based on the provided code.
