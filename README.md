@@ -10,6 +10,14 @@ We mainly use the GEM e2 and e4 vehicles at Highbay. For details, contact John a
 
 # Requirements for Real Vehicle Testing
 
-We should reserve the time slot by using the link: https://robotics.illinois.edu/reserve-lab/
+You must reserve a time slot using the following link: https://robotics.illinois.edu/reserve-lab/
 
-After logging into your Illinois account, you can request training on the Highbay reservation website or contact John directly to schedule it. Training is required before participating in vehicle testing. Each test must involve at least two people: one driver and one observer. Both roles require completing the training, which includes safety procedures, observer duties, and driving. To serve as a driver, you must also pass a short driving test. Make sure your lab safety certifications are updated on the university’s website. Once training is completed, you can use the vehicle during your reserved time slot.
+After logging into your Illinois account, you can request training through the Highbay reservation system or contact John directly to schedule it. Training is required before participating in vehicle testing. Each test must involve at least two people: one driver and one observer. Both roles require completing the training, which covers safety procedures, observer duties, and basic driving. To serve as a driver, you must also pass a short driving test. Lab safety certifications must be up to date on the university’s website.
+
+Once you complete the training, you are allowed to freely reserve time slots for testing. However, please note that priority is given to lab sessions for ECE 484 and CS 588.
+
+# Simulation
+
+Hang and Jiaming have already set up a simulation system for Gem e2, the link: https://github.com/hangcui1201/POLARIS_GEM_e2_Simulator
+
+We have fininshed some work on the simulation, including several different control methods. You can 
