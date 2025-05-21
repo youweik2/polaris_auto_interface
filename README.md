@@ -20,8 +20,12 @@ Once you complete the training, you are allowed to freely reserve time slots for
 
 Hang and Jiaming have developed a simulation environment for the GEM e2 vehicle, available at https://github.com/hangcui1201/POLARIS_GEM_e2_Simulator.
 
-We have extended the simulator with several control methods. In the /simulation folder, both DDP and Acados-based MPC implementations are provided and can run in this environment.
-
-Although the GEM e2 and e4 differ in hardware, they can be treated as equivalent in simulation. Note that the simulator uses speed and front wheel angle as control inputs, which differ from the real vehicle. Despite this, the simulation can still reflect system behavior to a useful extent.
+We have extended the simulator with several control methods. In the /simulation folder, both DDP and Acados-based MPC implementations are provided and can run in this environment. Although the GEM e2 and e4 differ in hardware, they can be treated as equivalent in simulation. Note that the simulator uses speed and front wheel angle as control inputs, which differ from the real vehicle. Despite this, the simulation can still reflect system behavior to a useful extent.
 
 The system includes plotting functions for visualizing trajectories and control outputs. Obstacles can be added by specifying points in the simulation world, which allows for testing basic avoidance scenarios.
+
+# MPC interface
+
+The e4 interface can be used directly on both the GEM e4 and e2 vehicles. We have finished a ROS-based version, which is already included on our SSD. You can use it as the main src folder to run the system.
+
+This interface sends throttle, brake, and steering commands through the PACMod system. If you are using our SSD, the setup is ready to use.
