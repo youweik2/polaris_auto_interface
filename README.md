@@ -18,6 +18,10 @@ Once you complete the training, you are allowed to freely reserve time slots for
 
 # Simulation
 
-Hang and Jiaming have already set up a simulation system for Gem e2, the link: https://github.com/hangcui1201/POLARIS_GEM_e2_Simulator
+Hang and Jiaming have developed a simulation environment for the GEM e2 vehicle, available at https://github.com/hangcui1201/POLARIS_GEM_e2_Simulator.
 
-We have fininshed some work on the simulation, including several different control methods. You can 
+We have extended the simulator with several control methods. In the /simulation folder, both DDP and Acados-based MPC implementations are provided and can run in this environment.
+
+Although the GEM e2 and e4 differ in hardware, they can be treated as equivalent in simulation. Note that the simulator uses speed and front wheel angle as control inputs, which differ from the real vehicle. Despite this, the simulation can still reflect system behavior to a useful extent.
+
+The system includes plotting functions for visualizing trajectories and control outputs. Obstacles can be added by specifying points in the simulation world, which allows for testing basic avoidance scenarios.
